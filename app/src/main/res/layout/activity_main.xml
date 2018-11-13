@@ -100,13 +100,16 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/heading_layout(LinearLayout (vertical)"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"></LinearLayout>
+                android:orientation="vertical">
+
+            </LinearLayout>
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textResult (TextView)"
             android:layout_width="match_parent"
             android:layout_height="67dp"
             android:text="TextView"
